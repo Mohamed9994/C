@@ -10,7 +10,7 @@ void add_Array(unsigned int Arry1[][3] ,unsigned int Arry2[][3] ,unsigned int Ar
             for (cunter2 = 0;cunter2 < 3; cunter2++){
                 printf("\n");
             
-                 Arry_sum[cunter1][cunter2] =Arry1[cunter1][cunter2] + Arry2[cunter1][cunter2];
+                 Arry_sum[cunter1][cunter2] =Arry1[cunter1][cunter2] * Arry2[cunter1][cunter2];
 
                 
 
